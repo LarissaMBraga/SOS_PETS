@@ -1,0 +1,27 @@
+name: sos_pets
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+  flutter: ">=3.0.0"
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  # Other dependencies here
+
+flutter:
+  uses-material-design: true
+   assets:
+    - lib/assets/principalpet.PNG
+    - lib/assets/adocao.PNG
+- lib/assets/perdido.png
+- lib/assets/vaquinha.png
+- lib/assets/veterinario.png
+
